@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Quicksand;
+}
+
+.container {
+    width: 400px;
+    background: ghostwhite;
+    height: 700px;
+    margin: 20px auto;
+    border: 2px solid rgb(192, 191, 191);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    padding: 15px;
+}
+
+ul li {
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ul li span.icon {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 25px;
+    right: 20px;
+    top: 10px;
+}
+
+ul li h4 {
+    margin: 0;
+}
+
+ul li p {
+    color: #7b7c8c;
+}
+
+ul li .location {
+    color: blue;
+}
+
+ul li .bottom-container {
+    margin-top: 15px;
+    border-top: 1px solid #f1d9d1;
+    padding-top: 15px;
+    font-size: 12px;
+    position: relative;
+}
+
+.bottom-container .human {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #333;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -5px;
+}
+.bottom-container .human.first {
+    right: 20px;
+    background: tomato;
+    z-index: 100000000;
+}
+.bottom-container .human.second {
+    right: 5px;
+}
+
+ul li:nth-child(1) {
+    background: #feeae6;
+}
+
+ul li:nth-child(2) {
+    background: #fdf1dc;
+}
+
+ul li:nth-child(3) {
+    background: #cfecff;
+}
+
+ul li:last-child .bottom-container {
+    border-top-color: #bbd9ed;
+}
+
