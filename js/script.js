@@ -1,23 +1,16 @@
+const main = document.querySelector('.main')
+const button = document.createElement('button')
 
-let trainers = [
-    {
-        name: 'Thomas'
-    },
-    {
-        name: 'Salami'
-    },
-    {
-        name: 'Amo'
-    },
-    {
-        name: 'King'
-    }
-]
+button.textContent = 'Click me'
+button.className = 'button'
+main.appendChild(button)
+
+const newBtn = button.cloneNode(true)
+newBtn.textContent = 'New button'
+main.appendChild(newBtn)
 
 
 
-let salami = trainers.find((trainer,index,trainers) => {
-    return trainer.name === 'Salami'
-});
 
-console.log(salami)
+
+

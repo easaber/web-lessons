@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 600px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+.button {
+    transition-duration: 0.1s;
+    background-color: #F4595B;
+    border-radius: 8px;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom: 4px solid #C24648;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    }
